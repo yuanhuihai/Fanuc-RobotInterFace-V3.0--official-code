@@ -60,7 +60,6 @@
             this.cmdSetStrReg = new System.Windows.Forms.Button();
             this.cmdRefresh2 = new System.Windows.Forms.Button();
             this.cmdSetPosRegMG = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.MainMenu1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -502,19 +501,9 @@
             this.cmdSetPosRegMG.UseVisualStyleBackColor = false;
             this.cmdSetPosRegMG.Click += new System.EventHandler(this.cmdSetPosRegMG_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(40, 396);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 12);
-            this.label1.TabIndex = 45;
-            this.label1.Text = "label1";
-            // 
             // frm
             // 
             this.ClientSize = new System.Drawing.Size(706, 435);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.cmdSetPosRegMG);
             this.Controls.Add(this.cmdRefresh2);
             this.Controls.Add(this.cmdSetStrReg);
@@ -582,7 +571,6 @@
         public System.Windows.Forms.Button cmdSetStrReg;
         public System.Windows.Forms.Button cmdRefresh2;
         public System.Windows.Forms.Button cmdSetPosRegMG;
-        private System.Windows.Forms.Label label1;
     }
 }
 
