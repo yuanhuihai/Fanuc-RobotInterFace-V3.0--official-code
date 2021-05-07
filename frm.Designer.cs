@@ -60,6 +60,7 @@
             this.cmdSetStrReg = new System.Windows.Forms.Button();
             this.cmdRefresh2 = new System.Windows.Forms.Button();
             this.cmdSetPosRegMG = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.MainMenu1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -387,7 +388,7 @@
             // mnuExit
             // 
             this.mnuExit.Name = "mnuExit";
-            this.mnuExit.Size = new System.Drawing.Size(98, 22);
+            this.mnuExit.Size = new System.Drawing.Size(96, 22);
             this.mnuExit.Text = "&Exit";
             this.mnuExit.Click += new System.EventHandler(this.mnuExit_Click);
             // 
@@ -409,13 +410,13 @@
             this.mnuSetting.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuTimeOut});
             this.mnuSetting.Name = "mnuSetting";
-            this.mnuSetting.Size = new System.Drawing.Size(62, 22);
+            this.mnuSetting.Size = new System.Drawing.Size(60, 21);
             this.mnuSetting.Text = "&Setting";
             // 
             // mnuTimeOut
             // 
             this.mnuTimeOut.Name = "mnuTimeOut";
-            this.mnuTimeOut.Size = new System.Drawing.Size(158, 22);
+            this.mnuTimeOut.Size = new System.Drawing.Size(157, 22);
             this.mnuTimeOut.Text = "&TimeOutValue";
             this.mnuTimeOut.Click += new System.EventHandler(this.mnuTimeOut_Click);
             // 
@@ -424,7 +425,7 @@
             this.mnFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuExit});
             this.mnFile.Name = "mnFile";
-            this.mnFile.Size = new System.Drawing.Size(40, 22);
+            this.mnFile.Size = new System.Drawing.Size(39, 21);
             this.mnFile.Text = "&File";
             // 
             // timLoop
@@ -440,13 +441,13 @@
             this.mnuAbout});
             this.MainMenu1.Location = new System.Drawing.Point(0, 0);
             this.MainMenu1.Name = "MainMenu1";
-            this.MainMenu1.Size = new System.Drawing.Size(706, 26);
+            this.MainMenu1.Size = new System.Drawing.Size(706, 25);
             this.MainMenu1.TabIndex = 41;
             // 
             // mnuAbout
             // 
             this.mnuAbout.Name = "mnuAbout";
-            this.mnuAbout.Size = new System.Drawing.Size(54, 22);
+            this.mnuAbout.Size = new System.Drawing.Size(55, 21);
             this.mnuAbout.Text = "&About";
             this.mnuAbout.Click += new System.EventHandler(this.mnuAbout_Click);
             // 
@@ -501,9 +502,19 @@
             this.cmdSetPosRegMG.UseVisualStyleBackColor = false;
             this.cmdSetPosRegMG.Click += new System.EventHandler(this.cmdSetPosRegMG_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(40, 396);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(41, 12);
+            this.label1.TabIndex = 45;
+            this.label1.Text = "label1";
+            // 
             // frm
             // 
             this.ClientSize = new System.Drawing.Size(706, 435);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.cmdSetPosRegMG);
             this.Controls.Add(this.cmdRefresh2);
             this.Controls.Add(this.cmdSetStrReg);
@@ -571,7 +582,7 @@
         public System.Windows.Forms.Button cmdSetStrReg;
         public System.Windows.Forms.Button cmdRefresh2;
         public System.Windows.Forms.Button cmdSetPosRegMG;
-
+        private System.Windows.Forms.Label label1;
     }
 }
 
